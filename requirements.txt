@@ -5,5 +5,5 @@ ttth-mds5-analyzer
 matplotlib
 seaborn
 plotly
-sklearn
+scikit-learn
 prophet
