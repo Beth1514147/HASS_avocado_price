@@ -1,7 +1,6 @@
 pandas
 numpy
 xgboost
-ttth-mds5-analyzer
 matplotlib
 seaborn
 plotly
