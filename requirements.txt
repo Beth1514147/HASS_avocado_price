@@ -2,7 +2,7 @@ pip
 pandas
 numpy
 xgboost
-matplotlib.pyplot
+matplotlib
 seaborn
 scikit-learn
 prophet
