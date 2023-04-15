@@ -1,8 +1,10 @@
 pandas
 numpy
 xgboost
-matplotlib
+matplotlib.pyplot
 seaborn
-plotly
 scikit-learn
 prophet
+openpyxl
+datetime
+
