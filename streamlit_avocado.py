@@ -37,7 +37,7 @@ data = load_data('avocado_nothandle_outier.xlsx')
 # --------------- # 
 
 # Price prediction with XGBoost:
-with open('../AdaBoost_organic_avocado_price_prediction.pkl', 'rb') as file:  
+with open('AdaBoost_organic_avocado_price_prediction.pkl', 'rb') as file:  
     price_model = pickle.load(file)
 # doc model count len
 # with open(pkl_count, 'rb') as file:  
