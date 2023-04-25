@@ -105,8 +105,9 @@ if choice == 'Prediction with HASS avocado':
             total_bags = col2s[0].number_input('Total bags')
             total_bags = col2s[1].selectbox('Avocado type', ('Conventional', 'Organic'))
             month = col2s[2].number_input('Month')
-
-            total_bags = st.selectbox('Region', ('California', 'Albany'))
+            
+            lst_country = set(data.Region.unique().tolist())
+            total_bags = st.selectbox('Region', lst_country)
             
         Results = st.button('Show prediction')
         if Results:
