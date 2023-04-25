@@ -107,7 +107,7 @@ if choice == 'Prediction with HASS avocado':
             month = col2s[2].number_input('Month')
             
             lst_country = set(data.Region.tolist())
-            total_bags = st.selectbox('Region', lst_country)
+            total_bags = st.selectbox('region', lst_country)
             
         Results = st.button('Show prediction')
         if Results:
